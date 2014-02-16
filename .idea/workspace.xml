@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="48" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.6869919" vertical-offset="146" max-vertical-offset="682">
+            <state line="22" column="48" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="682">
               <folding />
             </state>
           </provider>
@@ -107,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="467" selection-end="467" vertical-scroll-proportion="-12.064516" vertical-offset="0" max-vertical-offset="594">
+            <state line="12" column="35" selection-start="353" selection-end="353" vertical-scroll-proportion="0.57266814" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -129,12 +129,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/site.css.scss" />
         <option value="$PROJECT_DIR$/app/views/site/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/site_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -622,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="467" selection-end="467" vertical-scroll-proportion="-12.064516" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/site.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="220">
@@ -666,7 +659,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.6869919" vertical-offset="146" max-vertical-offset="682">
+        <state line="22" column="48" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="353" selection-end="353" vertical-scroll-proportion="0.57266814" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
