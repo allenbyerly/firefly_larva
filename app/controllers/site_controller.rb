@@ -8,6 +8,10 @@ class SiteController < ApplicationController
 
   end
 
+  def allen
+
+  end
+
   def addUserInfo
 
   end

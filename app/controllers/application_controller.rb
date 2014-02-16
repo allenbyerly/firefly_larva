@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
     nil
   end
   def after_sign_in_path_for(resource_or_scope)
-    redirect_to :controller => 'site', :action => 'kevin'
+    user_index_path
   end
 
 end
