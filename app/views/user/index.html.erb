@@ -1,2 +1,30 @@
-<h1>User#index</h1>
+<h1>Tell us more about you</h1>
 <p>Find me in app/views/user/index.html.erb</p>
+
+<%= form_for( @user)  do |f| %>
+
+
+    <div><%= f.label :first_name %><br />
+      <%= f.text_field :first_name %></div>
+
+    <div><%= f.label :last_name %><br />
+      <%= f.text_field :last_name %></div>
+
+    <div><%= f.label :address %><br />
+      <%= f.text_field :address %></div>
+
+    <div><%= f.label :city %><br />
+      <%= f.text_field :city %></div>
+
+    <div><%= f.label :state %><br />
+      <%= f.text_field :state %></div>
+
+    <div><%= f.label :zipcode %><br />
+      <%= f.text_field :zipcode %></div>
+
+    <div><%= f.submit "Save" %></div>
+<% end %>
+
+<%= link_to "Save", "#" %>
+<%= link_to "Next", "#" %>
+</div>
