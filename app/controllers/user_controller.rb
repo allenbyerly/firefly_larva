@@ -1,6 +1,6 @@
 class UserController < ApplicationController
   def index
-    @user=User.All
+    @user=User.find(:all)
   end
 
   def edit
