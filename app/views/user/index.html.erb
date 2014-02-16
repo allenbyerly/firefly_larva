@@ -1,6 +1,4 @@
-
-
-<div class="border-form-div">
+<div class="border-form-div" id="first_form">
   <h1>Tell us more about you</h1>
   <p>&nbsp;</p>
 <form class="form-horizontal">
@@ -83,9 +81,55 @@
   </fieldset>
 </form>
 
-
-
-
-
 </div>
+</div>
+
+<div class="border-form-div" id="second_form">
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Do you have a specific condition?</legend>
+
+    <!-- Multiple Checkboxes -->
+    <div class="control-group">
+      <label class="control-label" for="checkboxes">Select all that apply</label>
+      <div class="controls">
+        <label class="checkbox" for="checkboxes-0">
+          <input type="checkbox" name="checkboxes" id="checkboxes-0" value="Lung Cancer">
+          Lung Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-1">
+          <input type="checkbox" name="checkboxes" id="checkboxes-1" value="Breast Cancer">
+          Breast Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-2">
+          <input type="checkbox" name="checkboxes" id="checkboxes-2" value="Prostate Cancer">
+          Prostate Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-3">
+          <input type="checkbox" name="checkboxes" id="checkboxes-3" value="Other Cancer">
+          Other Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-4">
+          <input type="checkbox" name="checkboxes" id="checkboxes-4" value="Diabetes">
+          Diabetes
+        </label>
+        <label class="checkbox" for="checkboxes-5">
+          <input type="checkbox" name="checkboxes" id="checkboxes-5" value="HIV/AIDS">
+          HIV/AIDS
+        </label>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+     <p>&nbsp;</p>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
 </div>
