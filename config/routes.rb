@@ -4,6 +4,7 @@ FireflyApp::Application.routes.draw do
   get "healthcare/index"
   get "user/index"
   get "user/edit"
+  get "user/results"
   devise_for :users
   get "site/index"
   get "site/kevin"

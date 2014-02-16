@@ -15,6 +15,11 @@ class UserController < ApplicationController
 
   end
 
+  def results
+
+  end
+
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update

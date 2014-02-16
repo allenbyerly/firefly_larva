@@ -12,6 +12,14 @@
  *= require_tree .
  */
 
+#button-continue{
+    color:#fff;
+    text-align: center;
+
+}
+
+
+
 body	 {
     background: url("http://geprek.com/images/2013/03/cute-backgrounds-small-nature-plant-611662.jpg") repeat-y; background-position:fixed;
 }

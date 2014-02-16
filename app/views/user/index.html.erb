@@ -149,15 +149,19 @@
       <label class="control-label" for="radios-health-provider">Who is your insurance provider?</label>
       <div class="controls">
         <label class="radio" for="radios-health-provider-0">
-          <input type="radio" name="radios-health-provider" id="radios-health-provider-0" value="Kaiser" checked="checked">
-          Kaiser
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-0" value="None" checked="checked">
+          None
         </label>
         <label class="radio" for="radios-health-provider-1">
-          <input type="radio" name="radios-health-provider" id="radios-health-provider-1" value="Health Net">
-          Health Net
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-1" value="Kaiser">
+          Kaiser
         </label>
         <label class="radio" for="radios-health-provider-2">
-          <input type="radio" name="radios-health-provider" id="radios-health-provider-2" value="Blue Cross">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-2" value="Health Net">
+          Health Net
+        </label>
+        <label class="radio" for="radios-health-provider-3">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-3" value="Blue Cross">
           Blue Cross
         </label>
       </div>
@@ -211,4 +215,9 @@
 
   </fieldset>
 </form>
+</div>
+
+
+<div class="border-form-div" id="button_form">
+  <%=link_to "Process",{:action =>"results"},:class=> "btn btn-primary" %>
 </div>
