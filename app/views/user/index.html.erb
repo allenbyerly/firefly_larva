@@ -86,13 +86,14 @@
 
 <div class="border-form-div" id="second_form">
 <form class="form-horizontal">
+
   <fieldset>
 
     <!-- Form Name -->
     <legend>Do you have a specific condition?</legend>
 
     <!-- Multiple Checkboxes -->
-    <div class="control-group">
+    <div class="btn-group" data-toggle="buttons">
       <label class="control-label" for="checkboxes">Select all that apply</label>
       <div class="controls">
         <label class="checkbox" for="checkboxes-0">
@@ -122,9 +123,87 @@
       </div>
     </div>
 
+
     <!-- Button -->
     <div class="control-group">
      <p>&nbsp;</p>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+</div>
+
+
+<div class="border-form-div" id="third_form">
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Insurance Provider</legend>
+
+    <!-- Multiple Radios -->
+    <div class="control-group">
+      <label class="control-label" for="radios-health-provider">Who is your insurance provider?</label>
+      <div class="controls">
+        <label class="radio" for="radios-health-provider-0">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-0" value="Kaiser" checked="checked">
+          Kaiser
+        </label>
+        <label class="radio" for="radios-health-provider-1">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-1" value="Health Net">
+          Health Net
+        </label>
+        <label class="radio" for="radios-health-provider-2">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-2" value="Blue Cross">
+          Blue Cross
+        </label>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <p>&nbsp;</p>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+</div>
+
+<div class="border-form-div" id="fourth_form">
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Priorities</legend>
+
+    <!-- Multiple Radios -->
+    <div class="control-group">
+      <label class="control-label" for="radios-user-priorities">Select all that apply</label>
+      <div class="controls">
+        <label class="radio" for="radios-user-priorities-0">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-0" value="Save money" checked="checked">
+          Save money
+        </label>
+        <label class="radio" for="radios-user-priorities-1">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-1" value="Better coverage">
+          Better coverage
+        </label>
+        <label class="radio" for="radios-user-priorities-2">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-2" value="Specific Doctor">
+          Specific Doctor
+        </label>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <label class="control-label" for="next"></label>
       <div class="controls">
         <button id="next" name="next" class="btn btn-primary">Next</button>
       </div>
