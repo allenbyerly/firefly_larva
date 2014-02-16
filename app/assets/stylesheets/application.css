@@ -24,11 +24,6 @@ body	 {
     background: url("http://geprek.com/images/2013/03/cute-backgrounds-small-nature-plant-611662.jpg") repeat-y; background-position:fixed;
 }
 
-#page-wrap {
-    background: url(images/bg-blurry.jpg) no-repeat fixed;
-    width: 500px; margin: 40px auto;
-}
-
 /* User sign in and sign forms. */
 #plans{
 
@@ -41,7 +36,7 @@ body	 {
 
 .border-form-div {
 
-    max-width: 500px;
+    max-width: 400px;
     padding: 19px 29px 29px;
     margin: 0 auto 20px;
     background-color: #fff;
