@@ -1,7 +1,12 @@
 FireflyApp::Application.routes.draw do
+  get "user/index"
+  get "user/edit"
   devise_for :users
   get "site/index"
   get "site/kevin"
+  get "site/adduserinfo"
+  get "site/adduserinfo"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

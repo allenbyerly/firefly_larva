@@ -3,31 +3,7 @@
 <div class="container">
   <div class="row clearfix">
     <div class="col-md-12 column">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Firefly</a>
-        </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-
-
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right" id="login-area">
-            <p class="navbar-text pull-right">
-              <% if user_signed_in? %>
-                  Logged in as <strong><%= current_user.email %></strong>.
-                  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-                  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-              <% else %>
-                  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-                  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-              <% end %>
-          </ul>
-        </div>
-
-      </nav>
       <div class="carousel slide" id="carousel-267664">
         <ol class="carousel-indicators">
           <li class="active" data-slide-to="0" data-target="#carousel-267664">
