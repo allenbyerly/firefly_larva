@@ -7,11 +7,18 @@
 	</p>
 
 	<p>
-		Find a way to better living and a healthier life with Firefly!
+		Find a way to better living and a healthier life with Firefly! What are you waiting for?
 	</p>
 	<p>
-		<button class="btn btn-lg btn-success">
-			click sign-up in the top right!
-		</button>
+      <%# link_to "Sign up today!", new_user_registration_path, :class => 'btn btn-lg btn-success'  %>
+      <% if user_signed_in? %>
+
+          <%= link_to 'Check our options!', user_index_path, :class => 'btn btn-lg btn-success' %>
+          <%# link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+      <% else %>
+          <%= link_to "Sign up now!", new_user_registration_path, :class => 'btn btn-lg btn-success'  %>
+      <% end %>
+
+
 	</p>
 </div>

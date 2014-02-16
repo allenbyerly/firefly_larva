@@ -5,6 +5,7 @@ FireflyApp::Application.routes.draw do
   get "user/index"
   get "user/edit"
   get "user/results"
+  get "user/success"
   devise_for :users
   get "site/index"
   get "site/kevin"
