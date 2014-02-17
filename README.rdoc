@@ -1,3 +1,12 @@
+root: firefly - 
+- properties: exoskeliton, sentinal, illuminating, transforming, aerial, seasonal, 
+- behaviors: follows patterns, group member, coordinate, coopertive, tracing
+stem: larva
+- properties: progeny, potentialiser, clean
+- behaviors: developing, containing essential elements only
+bud: firefly_larva
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
