@@ -1,21 +1,45 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/moment-2.4.0.js"></script>
+<script type="text/javascript" src="/assets/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="/assets/bootstrap-datetimepicker.ru.js"></script>
+
 <p>
 	Site#index Find me in app/views/site/index.html.erb
 </p>
 
 <div class="container">
-	<h2> Enrolee 2222 Information </h2>
+	<h2> Enrolee 22 Information </h2>
 	<p>
 		Please provide some details about the enrolee:
+		
+		<div class="container">
+    <div class="col-md-10">
+        <div class='well'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker2').datetimepicker({
+                    language: 'en'
+                });
+            });
+        </script>
+    </div>
+</div>
+            
 	</p>
-	<p>
-		Date of Birth
-		<button class="btn btn-lg btn-info">
-			__/__/____</button>
-	</p>
+	
 	<p>
 		Home address ZIP code
 		<button class="btn btn-lg btn-info">
-			_____</button>
+			94110</button>
 	</p>
 	<p>
 		<button class="btn btn-lg btn-success">
@@ -30,26 +54,30 @@
 		Do you have a specific condition or conditions you need care for?  Select all that apply:
 	</p>
 	<p>
-		<button class="btn btn-lg btn-default">
-			Lung Cancer
-		</button>
-		<button class="btn btn-lg btn-default">
-			Breast Cancer
-		</button>
-		<button class="btn btn-lg btn-default">
-			Prostate Cancer
-		</button>
+		<div class="btn-group" data-toggle="buttons">
+  			<label class="btn btn-lg btn-primary">
+	    		<input type="checkbox"> Lung Cancer
+		  	</label>
+		  	<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> Breast Cancer
+		  	</label>
+			<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> Prostate Cancer
+			</label>
+		</div>
 	</p>
 	<p>
-		<button class="btn btn-lg btn-default">
-			Other Cancer
-		</button>
-		<button class="btn btn-lg btn-default">
-			Diabeter
-		</button>
-		<button class="btn btn-lg btn-default">
-			HIV/AIDS
-		</button>
+		<div class="btn-group" data-toggle="buttons">
+  			<label class="btn btn-lg btn-primary">
+	    		<input type="checkbox"> Other Cancer
+		  	</label>
+		  	<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> Diabetes
+		  	</label>
+			<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> HIV/AIDS
+			</label>
+		</div>
 	</p>
 	<p>
 		<button class="btn btn-lg btn-success">
@@ -64,23 +92,24 @@
 <div class="container">
 	<h2> Current Insurance </h2>
 	<p>
-		Please provide the name of your insurance provider
+		Who is your current provider?
 	</p>
 	<p>
-		<button class="btn btn-lg btn-default">
-			Kaiser
-		</button>
-		<button class="btn btn-lg btn-default">
-			Health Net
-		</button>
-		<button class="btn btn-lg btn-default">
-			Blue Cross
-		</button>
-		<button class="btn btn-lg btn-default">
-			I don't have one.
-		</button>
+		<div class="btn-group" data-toggle="buttons">
+  			<label class="btn btn-lg btn-primary">
+	    		<input type="checkbox"> Kaiser
+		  	</label>
+		  	<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> Health Net
+		  	</label>
+			<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> Blue Cross
+			</label>
+			<label class="btn btn-lg btn-primary">
+		    	<input type="checkbox"> HackerCare
+			</label>
+		</div>
 	</p>
-	<p>
 		<button class="btn btn-lg btn-success">
 			Next
 		</button>
@@ -221,9 +250,12 @@
 		<button class="btn btn-lg btn-success">
 			Sign-Up
 		</button>
+		<button class="btn btn-lg btn-warning">
+			
+			allen286.eb5ca68@m.evernote.com
+		</button>
 		<button class="btn btn-lg btn-danger">
 			Back
 		</button>
 	</p>
 </div>
-
