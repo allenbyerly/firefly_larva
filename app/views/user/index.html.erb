@@ -1,2 +1,180 @@
-<h1>User#index</h1>
-<p>Find me in app/views/user/index.html.erb</p>
+<div class="border-form-div" id="first_form">
+  <h1>Tell us more about you</h1>
+  <p>&nbsp;</p>
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>User details</legend>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="dob">Date of birth</label>
+      <div class="controls">
+        <input id="dob" name="dob" type="text" placeholder="Date of birth" class="input-xlarge">
+
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="control-group">
+      <label class="control-label" for="zipcode">Zip-code</label>
+      <div class="controls">
+        <input id="zipcode" name="zipcode" type="text" placeholder="Enter zip-code" class="input-xlarge">
+
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <label class="control-label" for="user_save"></label>
+      <div class="controls">
+        <button id="user_save" name="user_save" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+
+</div>
+</div>
+
+<div class="border-form-div" id="second_form">
+<form class="form-horizontal">
+
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Do you have a specific condition?</legend>
+
+    <!-- Multiple Checkboxes -->
+    <div class="control-group">
+      <label class="control-label" for="checkboxes">Select all that apply</label>
+      <div class="controls">
+        <label class="checkbox" for="checkboxes-0">
+          <input type="checkbox" name="checkboxes" id="checkboxes-0" value="Lung Cancer">
+          Lung Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-1">
+          <input type="checkbox" name="checkboxes" id="checkboxes-1" value="Breast Cancer">
+          Breast Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-2">
+          <input type="checkbox" name="checkboxes" id="checkboxes-2" value="Prostate Cancer">
+          Prostate Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-3">
+          <input type="checkbox" name="checkboxes" id="checkboxes-3" value="Other Cancer">
+          Other Cancer
+        </label>
+        <label class="checkbox" for="checkboxes-4">
+          <input type="checkbox" name="checkboxes" id="checkboxes-4" value="Diabetes">
+          Diabetes
+        </label>
+        <label class="checkbox" for="checkboxes-5">
+          <input type="checkbox" name="checkboxes" id="checkboxes-5" value="HIV/AIDS">
+          HIV/AIDS
+        </label>
+      </div>
+    </div>
+
+
+    <!-- Button -->
+    <div class="control-group">
+     <p>&nbsp;</p>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+</div>
+
+
+<div class="border-form-div" id="third_form">
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Insurance Provider</legend>
+
+    <!-- Multiple Radios -->
+    <div class="control-group">
+      <label class="control-label" for="radios-health-provider">Who is your insurance provider?</label>
+      <div class="controls">
+        <label class="radio" for="radios-health-provider-0">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-0" value="None" checked="checked">
+          None
+        </label>
+        <label class="radio" for="radios-health-provider-1">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-1" value="Kaiser">
+          Kaiser
+        </label>
+        <label class="radio" for="radios-health-provider-2">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-2" value="Health Net">
+          Health Net
+        </label>
+        <label class="radio" for="radios-health-provider-3">
+          <input type="radio" name="radios-health-provider" id="radios-health-provider-3" value="Blue Cross">
+          Blue Cross
+        </label>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <p>&nbsp;</p>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+</div>
+
+<div class="border-form-div" id="fourth_form">
+<form class="form-horizontal">
+  <fieldset>
+
+    <!-- Form Name -->
+    <legend>Priorities</legend>
+
+    <!-- Multiple Radios -->
+    <div class="control-group">
+      <label class="control-label" for="radios-user-priorities">Select all that apply</label>
+      <div class="controls">
+        <label class="radio" for="radios-user-priorities-0">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-0" value="Save money" checked="checked">
+          Save money
+        </label>
+        <label class="radio" for="radios-user-priorities-1">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-1" value="Better coverage">
+          Better coverage
+        </label>
+        <label class="radio" for="radios-user-priorities-2">
+          <input type="radio" name="radios-user-priorities" id="radios-user-priorities-2" value="Specific Doctor">
+          Specific Doctor
+        </label>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="control-group">
+      <label class="control-label" for="next"></label>
+      <div class="controls">
+        <button id="next" name="next" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+</div>
+
+
+
+
+<div class="border-form-div" id="button_form" style="text-align: center;color: #fff">
+  <%=link_to "Process",{:action =>"results"},:class=> "btn btn-lg btn-success" %>
+</div>

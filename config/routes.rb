@@ -1,10 +1,24 @@
 FireflyApp::Application.routes.draw do
+  resources :providers
+
+  get "healthcare/index"
   get "user/index"
   get "user/edit"
+  get "user/results"
+  get "user/success"
   devise_for :users
   get "site/index"
   get "site/kevin"
   get "site/allen"
+
+  get "site/NeedsModal"
+
+  get "site/PrioritiesModal"
+
+  get "site/ProviderModal"
+
+  get "site/RecommendationModal"
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

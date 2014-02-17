@@ -19,4 +19,20 @@ class SiteController < ApplicationController
   def save_adduserinfo
 
   end
+
+  def NeedsModal
+
+  end
+
+  def PrioritiesModal
+
+  end
+
+  def ProviderModal
+
+  end
+
+  def RecommendationModal
+
+  end
 end
